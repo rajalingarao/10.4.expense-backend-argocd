@@ -10,9 +10,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/rajalingarao/10.3.expense-backend-argocd.git
+    repoURL: https://github.com/rajalingarao/10.4.expense-backend-argocd.git
     targetRevision: main   # or a tag/commit hash
-    path: .       # folder in repo with Kubernetes YAMLs
+    path: backend      # folder in repo with Kubernetes YAMLs
     helm:
       releaseName: backend
       valueFiles:
